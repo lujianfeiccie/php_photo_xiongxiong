@@ -47,6 +47,8 @@ window.attachEvent("onload", correctPNG);
 <link href="images/skin.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="/js/jquery.js">
 </script>
+<script type="text/javascript" src="/js/all.js">
+</script>
 <script type="text/javascript">
 $(document).ready(function(){
   $("#Submit").click(function(){
@@ -57,8 +59,14 @@ $(document).ready(function(){
 		  username:username,
 		  password:password
 		  },
-		  function(data){
-		    alert("Data: " + data.info.toString());
+		  function(data,status){
+		    if(data.status.toString()=="1"){
+		    	 location.href = 'index.html';
+		    	 setCookie("username",username,1);
+		    	 alert("登陆成功!");
+		    }else{
+		    	 alert("用户名或密码错误!");
+		    }
 		});
   });
 });
