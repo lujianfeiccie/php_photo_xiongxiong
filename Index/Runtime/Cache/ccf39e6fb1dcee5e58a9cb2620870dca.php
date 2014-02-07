@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>select * from tb_user where user_name like 'admin' and user_password like 'admin'

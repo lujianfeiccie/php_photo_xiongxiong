@@ -4,13 +4,20 @@ class LoginAction extends Action {
     public function login(){
 		//$this->show('welcome to lujianfei\'s login');
 		//传入用户名和密码
-    	$username = I('get.username','');
-    	$password = I('get.password','');
+    	$username = I('post.username','');
+    	$password = I('post.password','');
+    	$data['data'] = '';
+    	$data['info'] = 'username or password is null';
+    	$data['status']  = 0;
+    	
+    	if($username==null || $password==null){
+    		$this->ajaxReturn($data);
+    		return;
+    	}
 		$sql = "select * from tb_user where user_name like '$username' and user_password like '$password'";    	
 		$M = D("user");
     	$list  = $M->query($sql);
 		//返回结果
-		$data['data'] = '';
 		if($list!=null){
 			$data['status']  = 1;
 			$data['info'] = 'login successful';
@@ -18,6 +25,8 @@ class LoginAction extends Action {
 			$data['status']  = 0;
 			$data['info'] = 'user not exist';
 		}
+		//$this->show(""+$list);
 		$this->ajaxReturn($data);
+		return;
     }
 }

@@ -286,3 +286,1656 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
 
+[ 2014-02-07T20:13:21+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010618s ]
+
+[ 2014-02-07T20:21:05+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.030206s ]
+INFO: [ route_check ] --END-- [ RunTime:0.030385s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002743s ]
+ERR: Unknown database 'db_photo'
+
+[ 2014-02-07T20:24:15+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002129s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002303s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.021886s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like '' and user_password like '' [ RunTime:0.000531s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like '' and user_password like ''
+
+[ 2014-02-07T20:26:03+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017522s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017766s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003515s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.087857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088295s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\work\php_photo\php_photo_xiongxiong\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\work\php_photo\php_photo_xiongxiong\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.008612s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001644s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001438s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013811s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001955s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002088s ]
+
+[ 2014-02-07T20:27:09+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+
+[ 2014-02-07T20:27:17+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013964s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014146s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002713s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\work\php_photo\php_photo_xiongxiong\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\work\php_photo\php_photo_xiongxiong\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001419s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001361s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005573s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001687s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001882s ]
+
+[ 2014-02-07T20:27:31+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001295s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001384s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\work\php_photo\php_photo_xiongxiong\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\work\php_photo\php_photo_xiongxiong\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000615s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000604s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000419s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002636s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001233s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001355s ]
+
+[ 2014-02-07T20:27:39+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001269s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001471s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\work\php_photo\php_photo_xiongxiong\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\work\php_photo\php_photo_xiongxiong\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000597s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000609s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002654s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001207s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2014-02-07T20:28:16+08:00 ] 127.0.0.1 /index.php/Index/query?username=www&password=wokao
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001997s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002166s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+
+[ 2014-02-07T20:28:30+08:00 ] 127.0.0.1 /index.php/Login/login?username=www&password=wokao
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001250s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006375s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'www' and user_password like 'wokao' [ RunTime:0.000575s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'www' and user_password like 'wokao'
+
+[ 2014-02-07T20:29:05+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002130s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002297s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004696s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000585s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T20:29:10+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001937s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002102s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006526s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'asdf' and user_password like 'sdfsf' [ RunTime:0.000580s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'asdf' and user_password like 'sdfsf'
+
+[ 2014-02-07T20:29:18+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001932s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002096s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004454s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000627s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T20:30:06+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.051551s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'adfds' and user_password like 'sdfsdf' [ RunTime:0.000567s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'adfds' and user_password like 'sdfsdf'
+
+[ 2014-02-07T20:30:12+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002307s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002482s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005758s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000556s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T20:34:47+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002006s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002175s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007424s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.018662s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'adsf' and user_password like 'asdf' [ RunTime:0.001080s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'adsf' and user_password like 'asdf'
+
+[ 2014-02-07T20:34:50+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001940s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002114s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019952s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004477s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'adsf' and user_password like 'sdf' [ RunTime:0.000560s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'adsf' and user_password like 'sdf'
+
+[ 2014-02-07T20:35:25+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001355s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004793s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'asdf' and user_password like 'sdfsf' [ RunTime:0.000557s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'asdf' and user_password like 'sdfsf'
+
+[ 2014-02-07T20:37:38+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010301s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010479s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002798s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006439s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'asdf' and user_password like 'sdf' [ RunTime:0.000540s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'asdf' and user_password like 'sdf'
+
+[ 2014-02-07T20:39:54+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.014389s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014568s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004666s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'adb' and user_password like 'adb' [ RunTime:0.000601s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'adb' and user_password like 'adb'
+
+[ 2014-02-07T20:40:07+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002234s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002403s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002808s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002440s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\work\php_photo\php_photo_xiongxiong\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\work\php_photo\php_photo_xiongxiong\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.002561s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001433s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001110s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006931s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001691s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001810s ]
+
+[ 2014-02-07T20:40:12+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002136s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003283s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.139160s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'adsbsd' and user_password like 'sdbsdb' [ RunTime:0.000598s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'adsbsd' and user_password like 'sdbsdb'
+
+[ 2014-02-07T20:40:12+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001476s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\work\php_photo\php_photo_xiongxiong\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\work\php_photo\php_photo_xiongxiong\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000632s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000614s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000414s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002680s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2014-02-07T20:40:15+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001244s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004496s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'asdfs' and user_password like 'sdfsf' [ RunTime:0.000627s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'asdfs' and user_password like 'sdfsf'
+
+[ 2014-02-07T20:40:37+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001224s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.072347s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'adbsd' and user_password like 'sdbsd' [ RunTime:0.000553s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'adbsd' and user_password like 'sdbsd'
+
+[ 2014-02-07T20:40:45+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001949s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002118s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001693s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006285s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'sdf' and user_password like 'sdf' [ RunTime:0.000550s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'sdf' and user_password like 'sdf'
+
+[ 2014-02-07T20:41:03+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001301s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.473245s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'sdf' and user_password like 'sdfs' [ RunTime:0.000542s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'sdf' and user_password like 'sdfs'
+
+[ 2014-02-07T20:41:09+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001264s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005791s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'sdf' and user_password like 'sdf' [ RunTime:0.000855s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'sdf' and user_password like 'sdf'
+
+[ 2014-02-07T20:41:50+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+
+[ 2014-02-07T20:41:54+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013908s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002753s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004711s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'abd' and user_password like 'abd' [ RunTime:0.000537s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'abd' and user_password like 'abd'
+
+[ 2014-02-07T20:42:42+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002366s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.014721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015104s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004823s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'asdf' and user_password like 'sdf' [ RunTime:0.000635s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'asdf' and user_password like 'sdf'
+
+[ 2014-02-07T20:43:10+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003312s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003499s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.024585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024737s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004668s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'asdf' and user_password like 'sdf' [ RunTime:0.000575s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'asdf' and user_password like 'sdf'
+
+[ 2014-02-07T20:43:13+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001881s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008671s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.246789s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'sdf' and user_password like 'sdf' [ RunTime:0.000540s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'sdf' and user_password like 'sdf'
+
+[ 2014-02-07T20:44:38+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001227s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.009408s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'Donald Duck' and user_password like 'Duckburg' [ RunTime:0.000540s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'Donald Duck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:44:38+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001286s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005320s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'Donald Duck' and user_password like 'Duckburg' [ RunTime:0.000577s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'Donald Duck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:44:42+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001270s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.285240s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'Donald Duck' and user_password like 'Duckburg' [ RunTime:0.000943s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'Donald Duck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:45:36+08:00 ] 127.0.0.1 /index.php/Login/login?username=www&password=wokao
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002999s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002449s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\work\php_photo\php_photo_xiongxiong\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\work\php_photo\php_photo_xiongxiong\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001328s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001346s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001333s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006046s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001835s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001968s ]
+
+[ 2014-02-07T20:45:55+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009410s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009587s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004825s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'Donald Duck' and user_password like 'Duckburg' [ RunTime:0.001543s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'Donald Duck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:46:33+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001327s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006126s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'Donald Duck' and user_password like 'Duckburg' [ RunTime:0.000575s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'Donald Duck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:53:37+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001948s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002113s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003312s ]
+
+[ 2014-02-07T20:53:52+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001969s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002292s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005351s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000579s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:54:38+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002078s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002250s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.008186s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000810s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:54:52+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003283s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003454s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.021029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021253s ]
+
+[ 2014-02-07T20:55:11+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+
+[ 2014-02-07T20:55:18+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001924s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002213s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002878s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.025577s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000592s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:55:37+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003459s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003632s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006299s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000580s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:55:41+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001637s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001897s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.009266s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000550s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:55:46+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001310s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.007124s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000607s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:55:48+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001224s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.022520s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000610s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:55:49+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006005s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000573s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:55:52+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001314s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005640s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000574s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:55:52+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001388s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.053476s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000616s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:55:53+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001244s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.008647s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000888s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:55:55+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.012827s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000654s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:56:06+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001275s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006002s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000783s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:58:32+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001932s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002095s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007150s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.011744s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000646s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:58:34+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002107s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.235018s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000599s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:58:36+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006055s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000564s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:58:38+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001325s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005570s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000537s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T20:58:38+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001222s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.019127s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000603s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T21:00:57+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002116s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002279s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002549s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006565s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000581s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T21:00:58+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001870s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002034s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.008360s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000536s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T21:01:29+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001951s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002117s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005920s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000723s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T21:01:34+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002038s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005350s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000533s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T21:01:35+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001316s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.373644s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000599s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T21:01:36+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001271s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.735216s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000550s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T21:01:36+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001322s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.012656s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000535s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T21:01:37+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001968s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002130s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006856s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000591s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T21:01:37+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001250s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.011521s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000645s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T21:01:42+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005897s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000552s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T21:01:44+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001239s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.007023s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000736s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T21:01:45+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001226s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.009056s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000720s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T21:01:47+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001356s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006154s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000536s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T21:01:48+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001400s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.009822s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.002059s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T21:01:51+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001579s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.007100s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000610s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg'
+
+[ 2014-02-07T21:04:52+08:00 ] 127.0.0.1 /index.php/Login/login?username=www&password=wokao
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002335s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+
+[ 2014-02-07T21:05:46+08:00 ] 127.0.0.1 /index.php/Login/login?username=www&password=wokao
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001214s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005723s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'www' and user_password like 'wokao' [ RunTime:0.000762s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'www' and user_password like 'wokao'
+
+[ 2014-02-07T21:05:54+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002045s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002214s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004250s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.029427s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000666s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T21:05:58+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001630s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.007048s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000538s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T21:06:00+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001254s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006546s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000557s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T21:06:01+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001342s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006802s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000713s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T21:06:22+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002278s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002452s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002123s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006041s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000555s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T21:06:24+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001267s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005359s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000577s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T21:06:29+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin&time=1231
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001358s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005587s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000528s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T21:06:31+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin&time=1231
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001286s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005203s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000531s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T21:06:36+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001273s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.009986s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.001040s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T21:06:37+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001347s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005593s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000599s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T21:06:47+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001404s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006953s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000758s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T21:07:23+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001659s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001828s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003557s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006417s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000554s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030440s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\work\php_photo\php_photo_xiongxiong\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\work\php_photo\php_photo_xiongxiong\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.002366s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001617s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003475s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010211s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002027s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002166s ]
+
+[ 2014-02-07T21:08:43+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002588s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002766s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006569s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000561s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T21:09:43+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002344s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002586s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.053492s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000544s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T21:09:50+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001945s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002107s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+
+[ 2014-02-07T21:11:13+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004231s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+
+[ 2014-02-07T21:11:15+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+
+[ 2014-02-07T21:11:17+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001230s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+
+[ 2014-02-07T21:11:20+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001232s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+
+[ 2014-02-07T21:11:21+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002633s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002813s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+
+[ 2014-02-07T21:11:36+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006360s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000596s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+ERR: 模板不存在[./Index/Tpl/Login/login.html]
+
+[ 2014-02-07T21:11:44+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002711s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002888s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005253s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000554s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+ERR: 模板不存在[./Index/Tpl/Login/login.html]
+
+[ 2014-02-07T21:11:50+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001303s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.007106s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.001563s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+ERR: 模板不存在[./Index/Tpl/Login/login.html]
+
+[ 2014-02-07T21:12:08+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002137s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002302s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.009594s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000579s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+ERR: 模板不存在[./Index/Tpl/Login/login.html]
+
+[ 2014-02-07T21:12:20+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002011s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002174s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005811s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000558s ]
+ERR: 1146:Table 'db_photo.tb_user' doesn't exist
+ [ SQL语句 ] : select * from tb_user where user_name like 'admin' and user_password like 'admin'
+
+[ 2014-02-07T21:13:35+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002537s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002714s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.007414s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000481s ]
+
+[ 2014-02-07T21:13:57+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002253s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+
+[ 2014-02-07T21:14:01+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001886s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002048s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+
+[ 2014-02-07T21:14:03+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001246s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+
+[ 2014-02-07T21:14:39+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001981s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002145s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+
+[ 2014-02-07T21:15:38+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002075s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002245s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.003654s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.005032s ]
+
+[ 2014-02-07T21:15:44+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013982s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014157s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.022499s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.004754s ]
+
+[ 2014-02-07T21:16:20+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+
+[ 2014-02-07T21:16:23+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+
+[ 2014-02-07T21:16:30+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001227s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+
+[ 2014-02-07T21:17:02+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001934s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002100s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004316s ]
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.003077s ]
+
+[ 2014-02-07T21:17:03+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002164s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.007808s ]
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000475s ]
+
+[ 2014-02-07T21:17:03+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002100s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002267s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005729s ]
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.008406s ]
+
+[ 2014-02-07T21:17:07+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002022s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005223s ]
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.003076s ]
+
+[ 2014-02-07T21:17:07+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001878s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002040s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004024s ]
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.003353s ]
+
+[ 2014-02-07T21:17:09+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001524s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001691s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.026410s ]
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.003480s ]
+
+[ 2014-02-07T21:17:10+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001238s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.003906s ]
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.003088s ]
+
+[ 2014-02-07T21:17:11+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001238s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004002s ]
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.003623s ]
+
+[ 2014-02-07T21:17:14+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001228s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.003967s ]
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.003553s ]
+
+[ 2014-02-07T21:29:23+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001866s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002028s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006648s ]
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.000494s ]
+
+[ 2014-02-07T21:29:52+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002318s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002501s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+
+[ 2014-02-07T21:30:16+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002363s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.007215s ]
+SQL: select * from tb_user where user_name like 'DonaldDuck' and user_password like 'Duckburg' [ RunTime:0.001510s ]
+
+[ 2014-02-07T21:30:39+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002087s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006800s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.003125s ]
+
+[ 2014-02-07T21:30:53+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001245s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.008656s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.010583s ]
+
+[ 2014-02-07T21:30:59+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002171s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002559s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006106s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.007195s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000465s ]
+
+[ 2014-02-07T21:31:33+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001304s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+
+[ 2014-02-07T21:31:39+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001262s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.021128s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.035526s ]
+
