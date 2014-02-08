@@ -6,6 +6,7 @@ class LoginAction extends Action {
 		//传入用户名和密码
     	$username = I('post.username','');
     	$password = I('post.password','');
+    	
     	$data['data'] = '';
     	$data['info'] = 'username or password is null';
     	$data['status']  = 0;
@@ -26,6 +27,8 @@ class LoginAction extends Action {
 			$data['info'] = 'user not exist';
 		}
 		//$this->show(""+$list);
+		$type['user_type']=$list[0]['user_type'];
+		$data['data'] = $type;
 		$this->ajaxReturn($data);
 		return;
     }

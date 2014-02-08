@@ -1,0 +1,460 @@
+[ 2014-02-08T09:41:51+08:00 ] 127.0.0.1 /index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-08T09:45:26+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.046875s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.015625s ]
+
+[ 2014-02-08T09:55:57+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.015625s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+
+[ 2014-02-08T09:57:44+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+
+[ 2014-02-08T09:59:22+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:13:40+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'ad' [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:13:44+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.015625s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:14:19+08:00 ] 127.0.0.1 /index.php/Login/loginAdmin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' and user_type = 1 [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:18:52+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:19:09+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.015625s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant user_type - assumed 'user_type' F:\workspace\study\php_photo\php_photo\Index\Lib\Action\LoginAction.class.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\workspace\study\php_photo\php_photo\Index\Lib\Action\LoginAction.class.php 第 30 行.
+
+[ 2014-02-08T10:21:17+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.015625s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:22:48+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+NOTIC: [8] Trying to get property of non-object F:\workspace\study\php_photo\php_photo\Index\Lib\Action\LoginAction.class.php 第 30 行.
+
+[ 2014-02-08T10:23:45+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_type F:\workspace\study\php_photo\php_photo\Index\Lib\Action\LoginAction.class.php 第 30 行.
+
+[ 2014-02-08T10:23:46+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_type F:\workspace\study\php_photo\php_photo\Index\Lib\Action\LoginAction.class.php 第 30 行.
+
+[ 2014-02-08T10:25:31+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:27:13+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:28:18+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:28:19+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.015625s ]
+
+[ 2014-02-08T10:28:20+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:28:20+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.015625s ]
+
+[ 2014-02-08T10:28:20+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.015625s ]
+
+[ 2014-02-08T10:28:30+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.015625s ]
+
+[ 2014-02-08T10:29:47+08:00 ] 127.0.0.1 /index.php/Login/loginAdmin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 非法操作:loginAdmin
+
+[ 2014-02-08T10:29:49+08:00 ] 127.0.0.1 /index.php/Login/loginAdmin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:loginAdmin
+
+[ 2014-02-08T10:30:10+08:00 ] 127.0.0.1 /index.php/Login/loginAdmin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:loginAdmin
+
+[ 2014-02-08T10:30:31+08:00 ] 127.0.0.1 /index.php/Login/loginAdmin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:loginAdmin
+
+[ 2014-02-08T10:30:39+08:00 ] 127.0.0.1 /index.php/Login/loginAdmin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:loginAdmin
+
+[ 2014-02-08T10:30:41+08:00 ] 127.0.0.1 /index.php/Login/loginAdmin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:loginAdmin
+
+[ 2014-02-08T10:30:42+08:00 ] 127.0.0.1 /index.php/Login/loginAdmin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:loginAdmin
+
+[ 2014-02-08T10:30:42+08:00 ] 127.0.0.1 /index.php/Login/loginAdmin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:loginAdmin
+
+[ 2014-02-08T10:31:45+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:31:52+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:31:56+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:33:02+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:38:33+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'ad' and user_password like 'sdf' [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 F:\workspace\study\php_photo\php_photo\Index\Lib\Action\LoginAction.class.php 第 30 行.
+
+[ 2014-02-08T10:48:11+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:48:17+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:48:26+08:00 ] 127.0.0.1 /index.php/Login/login?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:48:33+08:00 ] 127.0.0.1 /index.php/Login/login?username=user&password=user
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'user' and user_password like 'user' [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:49:07+08:00 ] 127.0.0.1 /index.php/Login/login?username=user&password=user
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:49:17+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'ad' and user_password like 'sdf' [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 F:\workspace\study\php_photo\php_photo\Index\Lib\Action\LoginAction.class.php 第 30 行.
+
+[ 2014-02-08T10:49:24+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:49:45+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:49:48+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'dsf' and user_password like 'sdf' [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 F:\workspace\study\php_photo\php_photo\Index\Lib\Action\LoginAction.class.php 第 30 行.
+
+[ 2014-02-08T10:49:54+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'user' and user_password like 'user' [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:51:19+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:51:24+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.015625s ]
+SQL: select * from tb_user where user_name like 'user' and user_password like 'user' [ RunTime:0.000000s ]
+
+[ 2014-02-08T10:51:29+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000000s ]
+SQL: select * from tb_user where user_name like 'admin' and user_password like 'admin' [ RunTime:0.000000s ]
+
