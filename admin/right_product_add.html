@@ -1,3 +1,7 @@
+<script type="text/javascript" src="/js/jquery.js">
+</script>
+<script type="text/javascript" src="/js/all.js">
+</script>
 <link href="images/skin.css" rel="stylesheet" type="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" /><style type="text/css">
 <!--
@@ -10,6 +14,7 @@ body {
 }
 -->
 </style>
+
 <body>
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
@@ -25,7 +30,7 @@ body {
     <td valign="middle" background="images/mail_leftbg.gif">&nbsp;</td>
     <td valign="top" bgcolor="#F7F8F9">
     	 <!-- 添加信息-->
-   			<table width="100%" height="100">               
+   			<table width="100%" height="156">               
                <tr>
                  <td width="10%" height="32" >名称：</td>
                  <td width="90%" ><input type="text"></td>
@@ -34,6 +39,24 @@ body {
                  <td height="32" >价格：</td>
                  <td ><input type="text" value="0">
                    (元)</td>
+               </tr>
+               <tr>
+                 <td height="26" >&nbsp;</td>
+                 <td>	
+                 <div class="btn">
+	                <input id="fileupload" type="file" name="mypic">
+                </div>
+	                <div class="progress">
+        	            <span class="bar"></span>
+            	        <span class="percent">0%</span >
+    	            </div>
+                <div class="files"></div>
+                <div id="showimg"></div>
+        		</td>
+               </tr>
+               <tr>
+                 <td height="26" >&nbsp;</td>
+                 <td>&nbsp;</td>
                </tr>
                <tr>
                  <td height="26" >&nbsp;</td>
@@ -50,4 +73,9 @@ body {
     <td valign="bottom" background="images/mail_rightbg.gif"><img src="images/buttom_right2.gif" width="16" height="17" /></td>
   </tr>
 </table>
+<script>
+ $("#fileupload").change(function(){
+	alert("wokao");
+  });
+</script>
 </body>
