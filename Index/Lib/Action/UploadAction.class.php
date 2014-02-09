@@ -8,7 +8,7 @@ class UploadAction extends Action {
         $upload = new UploadFile();// 实例化上传类
 	    $upload->maxSize   =     3145728 ;// 设置附件上传大小
 	    $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-	    $upload->savePath  =      './uploads/'; // 设置附件上传目录
+	    $upload->savePath  =      './upload/'; // 设置附件上传目录
 	    // 上传文件 
 	    $info   =   $upload->upload();
 	    if(!$info) {// 上传错误提示错误信息
@@ -19,7 +19,7 @@ class UploadAction extends Action {
 	    	$data['info'] = 'upload successful';
 	    }
 		$data['data'] = '';
-		$this->ajaxReturn($data);
+	//	$this->ajaxReturn($data);
 		return;
     }
 }

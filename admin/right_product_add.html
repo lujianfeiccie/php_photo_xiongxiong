@@ -2,6 +2,8 @@
 </script>
 <script type="text/javascript" src="/js/all.js">
 </script>
+<script type="text/javascript" src="/js/jquery.form.js">
+</script>
 <link href="images/skin.css" rel="stylesheet" type="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" /><style type="text/css">
 <!--
@@ -74,8 +76,24 @@ body {
   </tr>
 </table>
 <script>
+$(document).ready(function(){
+ $("#fileupload").wrap("<form id='myupload' action='/index.php/Upload/upload' method='post' enctype='multipart/form-data'></form>");
  $("#fileupload").change(function(){
-	alert("wokao");
+   $("#myupload").ajaxSubmit({
+	dataType:  'json',
+	beforeSend: function() {
+   		//alert("beforesend");
+	},
+	uploadProgress: function(event, position, total, percentComplete) {
+	},
+	success: function(data) {
+		alert("success="+data);
+	},
+	error:function(xhr){
+		alert("error");
+	}
+	});
   });
+});
 </script>
 </body>
