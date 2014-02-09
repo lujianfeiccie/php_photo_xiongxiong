@@ -16,10 +16,10 @@ class UploadAction extends Action {
 	        $data['info'] = $upload->getErrorMsg();
 	    }else{// 上传成功
 	    	$data['status']  = 1;
-	    	$data['info'] = 'upload successful';
+	    	$data['info'] = $upload->getUploadFileInfo();
 	    }
 		$data['data'] = '';
-	//	$this->ajaxReturn($data);
+		$this->ajaxReturn($data);
 		return;
     }
 }

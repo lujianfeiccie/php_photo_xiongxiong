@@ -87,7 +87,7 @@ $(document).ready(function(){
 	uploadProgress: function(event, position, total, percentComplete) {
 	},
 	success: function(data) {
-		alert("success="+data);
+		alert("success="+data.info[0].savename.toString());
 	},
 	error:function(xhr){
 		alert("error");
